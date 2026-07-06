@@ -1,0 +1,11 @@
+services:
+  NAME:
+    container_name: NAME
+    image: ghcr.io/thomasbsgr/NAME:latest
+    restart: unless-stopped
+    networks:
+      - caddy
+
+networks:
+  caddy:
+    external: true
