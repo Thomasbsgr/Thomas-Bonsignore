@@ -1,7 +1,7 @@
 services:
   thomas-bonsignore:
     container_name: thomas-bonsignore
-    image: ghcr.io/thomasbsgr/Thomas-Bonsignore:latest
+    image: ghcr.io/thomasbsgr/thomas-bonsignore:latest
     restart: unless-stopped
     networks:
       - caddy
