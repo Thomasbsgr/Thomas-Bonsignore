@@ -19,6 +19,9 @@
   --color-border: var(--border);
   --font-inter: var(--font-inter);
   --font-jet-brains-mono: var(--font-jet-brains-mono);
+
+  --text-xxs: 0.625rem;
+  --text-xxxs: 0.5625rem;
 }
 
 .dark {
@@ -30,13 +33,10 @@
 }
 
 @layer base {
-  html, body {
-    @apply h-full;
-  }
   body {
-    @apply bg-background font-sans overflow-x-hidden text-foreground;
+    @apply bg-background font-jet-brains-mono overflow-x-hidden text-foreground transition-colors;
   }
   section {
-    @apply max-w-7xl py-8 md:py-16 px-6 md:px-12 w-full mx-auto;
+    @apply px-12;
   }
 }

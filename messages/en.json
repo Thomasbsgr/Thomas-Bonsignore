@@ -3,8 +3,16 @@
     "title": "Thomas Bonsignore",
     "description": "Thomas Bonsignore, economics student at Solvay (ULB) and freelance developer passionate about IT."
   },
-
-  "HomePage": {
-    "title": "Hello world!"
+  "Header": {
+    "left": {
+      "status": "Status",
+      "ready_for_engagement": "Ready_for_engagement"
+    },
+    "right": {
+      "current_stack": "Current stack",
+      "stack": "Go / Django / Next.js",
+      "education": "Education",
+      "solvay": "Solvay Economics · ULB"
+    }
   }
 }
